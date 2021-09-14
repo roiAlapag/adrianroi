@@ -28,7 +28,6 @@ nav {
     width: 100%;
     background: #191970;
     top: 0;
-    position: sticky;
 }
 body {
     background-color:palegoldenrod;
@@ -58,27 +57,26 @@ a:active, a:hover {
     transition: .5s;
 }
 section {
-    font-size: 80px;
     font-family: 'Black Han Sans';
     text-align: center;
 }
 section h1 {
     color: #2b3e4efb;
-    font-size: 80px;
+    font-size: 40px;
     font-family: 'Black Han Sans';
     margin: 40px 50px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 30px;
     border-bottom: 8px solid #2b3e4efb ;
 }
 section p {
     color: #2b3e4efb;
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Black Han Sans';
-    margin: 120px 480px;
+    margin: 35px 35px;
     text-align: center; 
     text-align: justify;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 footer {
     background: #191970;
