@@ -42,7 +42,7 @@ nav li {
 nav a {
     font-family: 'Black Han Sans';
     color: ivory;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     border: 1px solid transparent;
     padding: 7px 10px;
@@ -54,11 +54,11 @@ body {
 }
 header {
     color: #191970;
-    font-size: 80px;
+    font-size: 40px;
     font-family: 'Black Han Sans';
     margin: 40px 50px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 50px;
     border-bottom: 8px solid #191970 ;
 }
 .trends .box-container{
