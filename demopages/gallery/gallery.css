@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family: 'Black Han Sans';
+    src: url(img&font/BlackHanSans-Regular.ttf);
+}
+.container {
+    background-image: url(img&font/Webpage_background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position:  center;
+    background-size: auto;
+    position: relative;
+}
+body {
+    background-color:coral;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo {
+    font-size: 50px;
+    font-family: 'Black Han Sans';
+    color: ivory;
+    padding: 0 100px;
+    line-height: 80px;
+}
+nav {
+    height: 80px;
+    width: 100%;
+    background: #191970;
+    top: 0;
+    position: sticky;
+}
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a {
+    font-family: 'Black Han Sans';
+    color: ivory;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a:active, a:hover {
+    border-color: ivory;
+    color: coral;
+    transition: .5s;
+}
+header {
+    color: #191970;
+    font-size: 80px;
+    font-family: 'Black Han Sans';
+    margin: 40px 50px;
+    text-align: center;
+    margin-top: 150px;
+    border-bottom: 8px solid #191970 ;
+}
+.burger .box-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 80%;
+}
+.burger .box-container .box{
+    height: 350px;
+    width: 350px;
+    background-color: ivory;
+    border-radius: 1px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 .5rem #333;
+}
+.burger .box-container img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+.info {
+    color: #191970;
+    text-align: center;
+    font-family: 'Black Han Sans';
+    font-size: 24px;
+    font-weight: 300;
+}

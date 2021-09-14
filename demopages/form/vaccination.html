@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>AdrianRoi</title>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="vaccination.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <div>
+        <div class="container">
+            <header>
+                <nav>
+                    <label class="logo">Myself</label>
+                    <ul>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="../tribute/tribute.html">Tribute</a></li>
+                        <li><a href="../gallery/gallery.html">Gallery</a></li>
+                        <li><a href="../restaurant/myrestaurant.html">Restaurant</a></li>
+                        <li><a href="../form/vaccination.html">Form</a></li>
+                        <li><a href="../review/myreviewonecmascript.html">Review</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="regform"><h1>Vaccine Registration</h1></div>
+            <div class="main">
+                <form>
+                    <div id="name">
+                        <h2 class="name">Name</h2>
+                        <input type="text" class="firstname" name="first-name" placeholder="First name">
+                        <input type="text" class="lastname" name="last-name" placeholder="Last name">
+                    </div>
+
+                    <h2 class="name">Address</h2>
+                    <input type="text" class="address" name="address"
+                    placeholder="Street Address/City/Province">
+
+                    <h2 class="name">Email</h2>
+                    <input type="email" class="email" name="email" placeholder="@gmail.com/@yahoo.com">
+
+                    <h2 class="name">Phone</h2>
+                    <input type="text" class="code" name="code" pattern="[0-9]{3}" 
+                    placeholder="+63">
+                    <input type="text" class="number" name="phone" pattern="[0-9]{3}-[0-9]{4}" 
+                    placeholder="Phone Number">
+
+                    <h2 class="name">Schedule</h2>
+                    <input type="date" class="date" name="date">
+
+                    <h2 class="name">Age</h2>
+                    <select class="option" name="age">
+                        <option disabled="disabled" selected="selected">Choose Option</option>
+                        <option>Under 12 years old</option>
+                        <option>12-17 years old</option>
+                        <option>18-24 years old</option>
+                        <option>25-34 years old</option>
+                        <option>35-44 years old</option>
+                        <option>45-54 years old</option>
+                        <option>55-64 years old</option>
+                        <option>65-74 years old</option>
+                    </select>
+
+                    <h2 class="name">Vaccine</h2>
+                    <select class="option" name="subject">
+                        <option disabled="disabled" selected="selected">Choose Option</option>
+                        <option>Janssen</option>
+                        <option>Pfizer</option>
+                        <option>Sinovac</option>
+                    </select>
+                    <h2 class="name">Gender</h2>
+                    <select class="option" name="subject">
+                        <option disabled="disabled" selected="selected">Choose Option</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+                    <button type="sumbit">Schedule</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <h3>About</h3>
+                <p>This web page is all about the activity given by our professor. <br>Contact us with the used of some social media sites like; Facebook, Twitter, and YouTube.</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2021. Designed by Alapag</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</head>

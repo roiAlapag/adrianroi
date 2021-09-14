@@ -17,22 +17,13 @@
     position: relative;
 }
 body {
-    background-color: rgb(238, 105, 57);
+    background-color: tomato;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-header {
+nav {
     height: 80px;
     width: 100%;
     background: #191970;
-    top: 0;
-    position: sticky;
-}
-label.logo {
-    font-size: 50px;
-    font-family: 'Black Han Sans';
-    color: ivory;
-    padding: 0 100px;
-    line-height: 80px;
 }
 nav ul {
     float: right;
@@ -52,77 +43,71 @@ nav a {
     padding: 7px 10px;
     border-radius: 3px;
 }
-.content h1 {
-    padding: 0 100px;
-    font-size: 150px;
-    font-weight: 100;
-    margin-left: 150px;
-    margin-bottom: 15px;
-    margin-top: 150px;
-    color: navy;
-    font-family: 'Black Han Sans';
-}
-.content p {
+label.logo {
     font-size: 50px;
-    font-weight: 100;
-    margin-top: 15px;
-    margin-left: 260px;
-    margin-bottom: 15px;
-    color: ivory;
-    font-family: inherit;
-    font-family: 'Black Han Sans';
-}
-.button {
-    background-color: #191970;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    margin-left: 260px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.button a {
     font-family: 'Black Han Sans';
     color: ivory;
-    text-transform: uppercase;
-    font-size: 20px;
+    padding: 0 100px;
+    line-height: 80px;
 }
 a:active, a:hover {
     border-color: ivory;
     color: coral;
     transition: .5s;
 }
-.secondcon h2 {
-    padding: 0 100px;
-    font-size: 80px;
+h1{
+    font-size: 100px;
     font-weight: 100;
     margin-left: 150px;
     margin-bottom: 15px;
-    margin-top: 160px;
+    margin-top: 50px;
     color: navy;
     font-family: 'Black Han Sans';
 }
-.secondcon p {
-    font-size: 30px;
+#main {
+    padding: 10px;
     font-weight: 100;
-    margin-left: 260px;
-    margin-top: 30px;
+    margin-left: 150px;
     margin-bottom: 150px;
-    width: 45%;
-    text-align: justify;
-    color: ivory;
-    font-family: inherit;
+    margin-top: 40px;
+    width: 800px;
+    height: 450px;
+    overflow: scroll;
+}
+.content h2 {
+    font-size: 35px;
+    font-weight: 100;
+    color: navy;
     font-family: 'Black Han Sans';
 }
-.secondcon img {
-    border: 10px solid navy;
-    border-radius: 10px;
-    float: right;
-    margin-right: 150px;
+.content p{
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 100;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #333;
+    font-family: 'Black Han Sans';
+}
+.content ol li {
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 100;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #333;
+    font-family: 'Black Han Sans';
+}
+img {
+    margin-right: 100px;
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 8px;
+    float: right;
+    border: 10px solid navy;
+    border-radius: 10px;
 }
 footer {
     background: #191970;
@@ -143,12 +128,10 @@ footer {
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
-    line-height: 3rem;
 }
 .footer-content p {
     max-width: 500px;
     margin: 10px auto;
-    line-height: 28px;
     font-size: 14px;
 }
 .socials {
@@ -161,7 +144,6 @@ footer {
 .socials li{
     margin-right: 15px;
     margin-left: 15px;
-    margin-bottom: 10px;
 }
 .socials a {
     text-decoration: none;
