@@ -61,7 +61,7 @@ header {
     height: 200px;
     width: 200px;
     margin-top: 20px;
-    margin-right: 550px;
+    margin-right: 950px;
 }
 .burgerlogo h1 {
     font-size: 100px;
@@ -81,7 +81,7 @@ header {
     text-align: center;
     display: inline-block;
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 350px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -129,8 +129,8 @@ label.logo {
     width: 90%;
 }
 .burger .box-container .box{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     background-color: ivory;
     border-radius: 1px;
     margin-top: 30px;
@@ -144,8 +144,8 @@ label.logo {
 }
 
 .burger .box-container img {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     object-fit: cover;
 }
 .info {
