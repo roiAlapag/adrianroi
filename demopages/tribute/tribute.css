@@ -37,7 +37,7 @@ nav li {
 nav a {
     font-family: 'Black Han Sans';
     color: ivory;
-    font-size: 17px;
+    font-size: 20px;
     text-transform: uppercase;
     border: 1px solid transparent;
     padding: 7px 10px;
@@ -50,15 +50,10 @@ label.logo {
     padding: 0 100px;
     line-height: 80px;
 }
-a:active, a:hover {
-    border-color: ivory;
-    color: coral;
-    transition: .5s;
-}
 h1{
     font-size: 100px;
     font-weight: 100;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-bottom: 15px;
     margin-top: 50px;
     color: navy;
@@ -67,22 +62,22 @@ h1{
 #main {
     padding: 10px;
     font-weight: 100;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-bottom: 150px;
     margin-top: 40px;
-    width: 400px;
+    width: 800px;
     height: 450px;
     overflow: scroll;
 }
 .content h2 {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 100;
     color: navy;
     font-family: 'Black Han Sans';
 }
 .content p{
     text-align: justify;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 100;
     margin-left: 15px;
     margin-top: 15px;
@@ -92,7 +87,7 @@ h1{
 }
 .content ol li {
     text-align: justify;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 100;
     margin-left: 15px;
     margin-top: 15px;

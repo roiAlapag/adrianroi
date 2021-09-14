@@ -16,10 +16,6 @@
     background-size: auto;
     position: relative;
 }
-body {
-    background-color:coral;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 .logo {
     font-size: 50px;
     font-family: 'Black Han Sans';
@@ -46,7 +42,7 @@ nav li {
 nav a {
     font-family: 'Black Han Sans';
     color: ivory;
-    font-size: 17px;
+    font-size: 20px;
     text-transform: uppercase;
     border: 1px solid transparent;
     padding: 7px 10px;
@@ -57,11 +53,15 @@ a:active, a:hover {
     color: coral;
     transition: .5s;
 }
+body {
+    background-color:coral;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 header {
     color: #191970;
-    font-size: 40px;
+    font-size: 80px;
     font-family: 'Black Han Sans';
-    margin: 20px 30px;
+    margin: 40px 50px;
     text-align: center;
     margin-top: 150px;
     border-bottom: 8px solid #191970 ;
@@ -76,20 +76,19 @@ header {
     width: 80%;
 }
 .burger .box-container .box{
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     background-color: ivory;
     border-radius: 1px;
     margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 10px;
+    margin-bottom: 60px;
     cursor: pointer;
     position: relative;
     box-shadow: 0 0 .5rem #333;
 }
 .burger .box-container img {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     object-fit: cover;
 }
 .info {
