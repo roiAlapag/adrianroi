@@ -58,19 +58,19 @@ header {
 }
 .burgerlogo img{
     float: right;
-    height: 398px;
-    width: 398px;
+    height: 200px;
+    width: 200px;
     margin-top: 20px;
     margin-right: 250px;
 }
 .burgerlogo h1 {
-    font-size: 180px;
+    font-size: 100px;
     font-weight: 100;
     margin-left: 350px;
     margin-top: 160px;
 }
 .burgerlogo h3 {
-    font-size: 210px;
+    font-size: 100px;
     font-weight: 100;
     margin-left: 350px;
 }
@@ -106,7 +106,7 @@ label.logo {
     color: #2b3e4efb;
     font-size: 60px;
     font-family: 'Black Han Sans';
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -144,8 +144,8 @@ label.logo {
 }
 
 .burger .box-container img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
 }
 .info {
