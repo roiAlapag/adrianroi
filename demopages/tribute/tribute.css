@@ -65,8 +65,8 @@ h1{
     margin-left: 150px;
     margin-bottom: 150px;
     margin-top: 40px;
-    width: 750px;
-    height: 250px;
+    width: 650px;
+    height: 300px;
     overflow: scroll;
 }
 .content h2 {
@@ -87,7 +87,7 @@ h1{
 }
 .content ol li {
     text-align: justify;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 100;
     margin-left: 15px;
     margin-top: 15px;
