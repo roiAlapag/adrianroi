@@ -46,7 +46,7 @@ nav li {
 nav a {
     font-family: 'Black Han Sans';
     color: ivory;
-    font-size: 10px;
+    font-size: 17px;
     text-transform: uppercase;
     border: 1px solid transparent;
     padding: 7px 10px;
@@ -61,7 +61,7 @@ header {
     color: #191970;
     font-size: 40px;
     font-family: 'Black Han Sans';
-    margin: 40px 50px;
+    margin: 20px 30px;
     text-align: center;
     margin-top: 150px;
     border-bottom: 8px solid #191970 ;
