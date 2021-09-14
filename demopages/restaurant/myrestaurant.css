@@ -60,13 +60,13 @@ header {
     float: right;
     height: 250px;
     width: 250px;
-    margin-right: 620px;
+    margin-right: 590px;
     margin-top: 30px;
 }
 .burgerlogo h1 {
     font-size: 100px;
     font-weight: 100;
-    margin-left: 250px;
+    margin-left: 450px;
 }
 .button {
     background-color: #2b3e4efb;
