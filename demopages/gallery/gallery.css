@@ -61,7 +61,7 @@ header {
     margin-top: 150px;
     border-bottom: 8px solid #191970 ;
 }
-.trend .box-container{
+.trends .box-container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -70,7 +70,7 @@ header {
     margin: 1rem auto;
     width: 80%;
 }
-.trend .box-container .box{
+.trends .box-container .box{
     height: 250px;
     width: 250px;
     background-color: ivory;
@@ -81,7 +81,7 @@ header {
     position: relative;
     box-shadow: 0 0 .5rem #333;
 }
-.trend .box-container img {
+.trends .box-container img {
     height: 250px;
     width: 250px;
     object-fit: cover;
