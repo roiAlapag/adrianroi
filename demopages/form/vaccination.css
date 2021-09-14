@@ -261,19 +261,3 @@ footer {
 .socials a:hover {
     color: coral;
 }
-.footer-bottom {
-    background: #111158;
-    width: 100%;
-    padding: 20px 0;
-    text-align: center;
-}
-.footer-bottom p {
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
-}
