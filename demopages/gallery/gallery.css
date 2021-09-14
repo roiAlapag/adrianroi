@@ -75,7 +75,7 @@ header {
     margin: 1rem auto;
     width: 80%;
 }
-.trends .box-container .box{
+.burger .box-container .box{
     height: 250px;
     width: 250px;
     background-color: ivory;
@@ -86,9 +86,9 @@ header {
     position: relative;
     box-shadow: 0 0 .5rem #333;
 }
-.trends .box-container img {
-    height: 250px;
-    width: 250px;
+.burger .box-container img {
+    height: 350px;
+    width: 350px;
     object-fit: cover;
 }
 .info {
