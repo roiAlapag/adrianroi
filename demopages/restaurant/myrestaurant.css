@@ -57,12 +57,15 @@ header {
     font-family: 'Black Han Sans';
 }
 .burgerlogo img{
-    float: right;
+    align-items: center;
+    text-align: center;
     height: 250px;
     width: 250px;
     margin-top: 30px;
 }
 .burgerlogo h1 {
+    align-items: center;
+    text-align: center;
     font-size: 100px;
     font-weight: 100;
 }
