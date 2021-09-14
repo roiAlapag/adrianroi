@@ -48,18 +48,13 @@ nav a {
     padding: 7px 10px;
     border-radius: 3px;
 }
-a:active, a:hover {
-    border-color: ivory;
-    color: coral;
-    transition: .5s;
-}
 body {
     background-color:coral;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header {
     color: #191970;
-    font-size: 50px;
+    font-size: 80px;
     font-family: 'Black Han Sans';
     margin: 40px 50px;
     text-align: center;
@@ -76,8 +71,8 @@ header {
     width: 80%;
 }
 .burger .box-container .box{
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     background-color: ivory;
     border-radius: 1px;
     margin-top: 30px;

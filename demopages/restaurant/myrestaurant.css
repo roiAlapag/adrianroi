@@ -61,12 +61,12 @@ header {
     height: 200px;
     width: 200px;
     margin-top: 20px;
-    margin-right: 250px;
+    margin-right: 550px;
 }
 .burgerlogo h1 {
     font-size: 100px;
     font-weight: 100;
-    margin-left: 350px;
+    margin-left: 50px;
     margin-top: 160px;
 }
 .burgerlogo h3 {
@@ -129,8 +129,8 @@ label.logo {
     width: 90%;
 }
 .burger .box-container .box{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     background-color: ivory;
     border-radius: 1px;
     margin-top: 30px;
