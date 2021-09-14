@@ -66,13 +66,8 @@ header {
 .burgerlogo h1 {
     font-size: 100px;
     font-weight: 100;
-    margin-left: 50px;
-    margin-top: 460px;
-}
-.burgerlogo h3 {
-    font-size: 100px;
-    font-weight: 100;
-    margin-left: 650px;
+    margin-left: 450px;
+    margin-top: 160px;
 }
 .button {
     background-color: #2b3e4efb;
