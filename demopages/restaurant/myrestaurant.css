@@ -81,6 +81,7 @@ header {
 a:active, a:hover {
     color: coral;
     transition: .5s;
+    border-color: ivory;
 }
 label.logo {
     font-size: 50px;
