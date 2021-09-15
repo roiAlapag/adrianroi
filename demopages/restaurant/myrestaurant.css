@@ -9,14 +9,14 @@
     src: url(img&font/BlackHanSans-Regular.ttf);
 }
 .container {
-    background-image: url(img&font/depositphotos_97867706-stock-photo-fresh-beef-burgers.jpg);
+    background-image: url(img&font/fire-burger-5k-steak-wallpaper-preview.jpg);
     height: 100vh;
     width: 100%;
     background-position:  center;
     background-size: 1920px 1000px;
-    position: relative;
+    position: sticky;
 }
-.logo {
+label.logo {
     font-size: 50px;
     font-family: 'Black Han Sans';
     color: ivory;
@@ -31,6 +31,15 @@ nav li {
     display: inline-block;
     margin: 0 8px;
     line-height: 80px;
+}
+nav a {
+    font-family: 'Black Han Sans';
+    color: ivory;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
 }
 nav a {
     font-family: 'Black Han Sans';
@@ -56,15 +65,12 @@ header {
     color:#2b3e4efb;
     font-family: 'Black Han Sans';
 }
-.button {
-    background-color: #2b3e4efb;
-    padding: 35px 65px;
-    align-items: center;
+.resto-name {
+    color: ivory;
+    font-size: 80px;
+    margin: 40px 50px;
     text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 40px;
 }
 .button a {
     font-family: 'Black Han Sans';
@@ -85,7 +91,7 @@ label.logo {
 }
 .heading {
     color: #2b3e4efb;
-    font-size: 60px;
+    font-size: 90px;
     font-family: 'Black Han Sans';
     margin-top: 100px;
     margin-bottom: 50px;
@@ -93,7 +99,7 @@ label.logo {
 }
 .subhead {
     color: #2b3e4efb;
-    font-size: 80px;
+    font-size: 50px;
     font-family: 'Black Han Sans';
     margin: 40px 50px;
     text-align: center;
@@ -110,23 +116,19 @@ label.logo {
     width: 90%;
 }
 .burger .box-container .box{
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     background-color: ivory;
     border-radius: 1px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 60px;
     cursor: pointer;
     position: relative;
     box-shadow: 0 0 .5rem #333;
 }
-.box .button:hover {
-    transform: scale(0);
-}
-
 .burger .box-container img {
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     object-fit: cover;
 }
 .info {
@@ -148,15 +150,15 @@ label.logo {
     transform: scale(1);
 }
 .info h3 {
-    font-size: 40px;
+    font-size: 30px;
     color:#f0e68c;
     text-transform: uppercase;
 }
 .info p {
-    font-size: 25px;
+    font-size: 15px;
     border-bottom: 4px solid crimson;
     border-top: 4px solid crimson;
-    margin: 40px 50px;
+    margin: 15px 25px;
 }
 .drinks .box-container{
     display: flex;
@@ -168,20 +170,25 @@ label.logo {
     width: 90%;
 }
 .drinks .box-container .box{
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
     background-color: ivory;
     border-radius: 1px;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 60px;
     cursor: pointer;
     position: relative;
     box-shadow: 0 0 .5rem #333;
 }
+.drinks .box-container img {
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+}
 footer {
     background: #191970;
     height: auto;
-    width: 100vw;
+    width: 100%;
     font-family: 'Black Han Sans';
     padding-top: 40px;
     color: ivory;
@@ -200,7 +207,7 @@ footer {
     line-height: 3rem;
 }
 .footer-content p {
-    max-width: 500px;
+    max-width: 400px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
@@ -230,7 +237,7 @@ footer {
 }
 .footer-bottom {
     background: #111158;
-    width: 100vw;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
