@@ -55,19 +55,19 @@ nav a {
 }
 .content h1 {
     padding: 0 100px;
-    font-size: 150px;
+    font-size: 140px;
     font-weight: 100;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-bottom: 15px;
     margin-top: 150px;
     color: #363024;
     font-family: Righteous;
 }
 .content p {
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 100;
     margin-top: 15px;
-    margin-left: 200px;
+    margin-left: 190px;
     margin-bottom: 15px;
     color: #4b4a3c;
     font-family: inherit;
@@ -76,7 +76,7 @@ nav a {
 .content img {
     border-radius: 10px;
     float: right;
-    margin-right: 250px;
+    margin-right: 150px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -86,7 +86,7 @@ nav a {
     text-align: center;
     display: inline-block;
     font-size: 20px;
-    margin-left: 200px;
+    margin-left: 190px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
