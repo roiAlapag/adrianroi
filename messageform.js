@@ -13,7 +13,7 @@ function validation() {
         alert("Please Enter Valid Last Name");
         return false;
     }
-    if (email.indexOf("@") == -1 || email.lenght <8) {
+    if (email.indexOf("@") || email.lenght <8) {
         alert("Please Enter Valid Email");
         return false;
     }
