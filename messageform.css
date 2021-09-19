@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family: 'Black Han Sans';
+    src: url(img&font/BlackHanSans-Regular.ttf);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-position:  center;
+    background-size: auto;
+    position: relative;
+}
+body {
+    background-color: #F0E68D;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background: maroon;
+    top: 0;
+    position: sticky;
+}
+label.logo {
+    font-size: 50px;
+    font-family: Righteous;
+    color: whitesmoke;
+    padding: 0 100px;
+    line-height: 80px;
+}
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a {
+    font-family: Righteous;
+    color: whitesmoke;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a:active, a:hover {
+    border-color: whitesmoke;
+    color: goldenrod;
+    transition: .5s;
+}
+.form-box {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    max-width: 500px;
+    width: 100%;
+    background: whitesmoke;
+    border: 1px solid maroon;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form-box h2 {
+    font-family: Righteous;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.form-box .input-field {
+    margin-bottom: 15px;
+}
+.form-box .input-field input, .form-box textarea {
+    width: 100%;
+    border: 1px solid #4b4a3c;
+    padding: 20px;
+}
+.form-box textarea {
+    height: 120px;
+    resize: none;
+}
+.form-box .button input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    font-family: Righteous;
+    color: whitesmoke;
+    background: maroon;
+    text-transform: uppercase;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.form-box .button input:hover {
+    background-color: #F0E68D;
+    color: black;
+    transition: .5s;
+}
+.form-box #error {
+    margin-bottom: 20px;
+    padding: 0px;
+    background: goldenrod;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
