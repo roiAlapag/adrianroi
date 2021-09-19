@@ -6,10 +6,6 @@
     text-decoration: none;
     list-style: none;
 }
-@font-face {
-    font-family: 'Black Han Sans';
-    src: url(img&font/BlackHanSans-Regular.ttf);
-}
 .container{
     height: 100vh;
     width: 100%;

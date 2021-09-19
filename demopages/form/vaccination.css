@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -16,22 +18,20 @@
     position: relative;
 }
 body {
-    width: 100%;
-    height: 100%;
-    background-color: coral;
+    background-color: #F0E68D;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-nav {
+header {
     height: 80px;
     width: 100%;
-    background: #191970;
-    position: sticky;
+    background: maroon;
     top: 0;
+    position: sticky;
 }
 label.logo {
     font-size: 50px;
-    font-family: 'Black Han Sans';
-    color: ivory;
+    font-family: Righteous;
+    color: whitesmoke;
     padding: 0 100px;
     line-height: 80px;
 }
@@ -45,8 +45,8 @@ nav li {
     line-height: 80px;
 }
 nav a {
-    font-family: 'Black Han Sans';
-    color: ivory;
+    font-family: Righteous;
+    color: whitesmoke;
     font-size: 20px;
     text-transform: uppercase;
     border: 1px solid transparent;
@@ -54,11 +54,13 @@ nav a {
     border-radius: 3px;
 }
 a:active, a:hover {
-    border-color: ivory;
-    color: coral;
+    border-color: whitesmoke;
+    color: goldenrod;
     transition: .5s;
 }
 .regform {
+    font-family: Righteous;
+    letter-spacing: 2px;
     width: 700px;
     background-color: ivory;
     margin: auto;
@@ -69,6 +71,7 @@ a:active, a:hover {
     border-radius: 15px 15px 0px 0px;
 }
 .main {
+    font-family: Arvo;
     background-color:rgb(243, 243, 243);
     width:700px;
     margin: auto;
@@ -196,7 +199,7 @@ a:active, a:hover {
     font-size: 18px;
 }
 button {
-    background-color: #f0e68c;
+    background-color: maroon;
     display: block;
     margin-left: 210px;  
     margin-bottom: 20px;   
@@ -209,55 +212,5 @@ button {
     transition: 0.25px;
 }
 button:hover {
-    background-color: coral;
-}
-footer {
-    background:#191970;
-    height: auto;
-    width: 100%;
-    font-family: 'Black Han Sans';
-    padding-top: 20px;
-    color: ivory;
-}
-.footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.footer-content h3 {
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-.footer-content p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
-.socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-.socials li{
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 10px;
-}
-.socials a {
-    text-decoration: none;
-    color: ivory;
-}
-.socials a i {
-    font-size: 40px;
-    transition: color .4 ease;
-}
-.socials a:hover {
-    color: coral;
+    background-color: #F0E68D;
 }

@@ -1,25 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
 }
-@font-face {
-    font-family: 'Black Han Sans';
-    src: url(img&font/BlackHanSans-Regular.ttf);
-}
-.container {
-    background-image: url(img&font/fire-burger-5k-steak-wallpaper-preview.jpg);
+.container{
     height: 100vh;
     width: 100%;
     background-position:  center;
-    background-size: 1920px 1000px;
-    position: sticky;
+    background-size: auto;
+    position: relative;
+}
+body {
+    background-color: #F0E68D;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background: maroon;
+    top: 0;
 }
 label.logo {
     font-size: 50px;
-    font-family: 'Black Han Sans';
-    color: ivory;
+    font-family: Righteous;
+    color: whitesmoke;
     padding: 0 100px;
     line-height: 80px;
 }
@@ -33,79 +40,66 @@ nav li {
     line-height: 80px;
 }
 nav a {
-    font-family: 'Black Han Sans';
-    color: ivory;
+    font-family: Righteous;
+    color: whitesmoke;
     font-size: 20px;
     text-transform: uppercase;
     border: 1px solid transparent;
     padding: 7px 10px;
     border-radius: 3px;
 }
-nav a {
-    font-family: 'Black Han Sans';
-    color: ivory;
-    font-size: 20px;
-    text-transform: uppercase;
-    border: 1px solid transparent;
-    padding: 7px 10px;
-    border-radius: 3px;
-}
-body {
-    background-color:#f0e68c;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-header {
-    height: 80px;
-    width: 100%;
-    background: #191970;
-    top: 0;
-    position: sticky;
+a:active, a:hover {
+    border-color: whitesmoke;
+    color: goldenrod;
+    transition: .5s;
 }
 .burgerlogo {
     color:#2b3e4efb;
-    font-family: 'Black Han Sans';
+    font-family: Righteous;
 }
-.resto-name {
-    color: ivory;
+.resto-name h1 {
+    font-family: Righteous;
+    word-spacing: 3px;
+    color: maroon;
     font-size: 80px;
     margin: 40px 50px;
     text-align: center;
     margin-top: 40px;
 }
 .button a {
-    font-family: 'Black Han Sans';
-    color: ivory;
+    font-family: Righteous;
+    color: whitesmoke;
     text-transform: uppercase;
     font-size: 30px;
 }
 a:active, a:hover {
     color: coral;
     transition: .5s;
-    border-color: ivory;
+    border-color: whitesmoke;
 }
 label.logo {
     font-size: 50px;
-    font-family: 'Black Han Sans';
-    color: ivory;
+    font-family: Righteous;
+    color: whitesmoke;
     padding: 0 100px;
     line-height: 80px;
 }
 .heading {
-    color: #2b3e4efb;
+    color: #363024;
     font-size: 90px;
-    font-family: 'Black Han Sans';
+    font-family: Righteous;
     margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
 }
 .subhead {
-    color: #2b3e4efb;
+    color: #363024;
     font-size: 50px;
-    font-family: 'Black Han Sans';
+    font-family: Righteous;
     margin: 40px 50px;
     text-align: center;
     margin-top: 150px;
-    border-bottom: 8px solid #2b3e4efb ;
+    border-bottom: 8px solid #363024 ;
 }
 .burger .box-container{
     display: flex;
@@ -151,11 +145,13 @@ label.logo {
     transform: scale(1);
 }
 .info h3 {
+    font-family: Righteous;
     font-size: 30px;
     color:#f0e68c;
     text-transform: uppercase;
 }
 .info p {
+    font-family: Arvo;
     font-size: 15px;
     border-bottom: 4px solid crimson;
     border-top: 4px solid crimson;
@@ -187,10 +183,10 @@ label.logo {
     object-fit: cover;
 }
 footer {
-    background: #191970;
+    background: maroon;
     height: auto;
     width: 100%;
-    font-family: 'Black Han Sans';
+    font-family: Righteous;
     padding-top: 40px;
     color: ivory;
 }
@@ -208,7 +204,8 @@ footer {
     line-height: 3rem;
 }
 .footer-content p {
-    max-width: 400px;
+    font-family: Arvo;
+    max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
@@ -234,10 +231,10 @@ footer {
     transition: color .4 ease;
 }
 .socials a:hover {
-    color: coral;
+    color: goldenrod;
 }
 .footer-bottom {
-    background: #111158;
+    background: rgb(104, 3, 3);
     width: 100%;
     padding: 20px 0;
     text-align: center;

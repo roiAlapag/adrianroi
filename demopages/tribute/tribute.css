@@ -1,15 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
 }
-@font-face {
-    font-family: 'Black Han Sans';
-    src: url(img&font/BlackHanSans-Regular.ttf);
-}
 .container{
-    background-image: url(img&font/Webpage_background.jpg);
     height: 100vh;
     width: 100%;
     background-position:  center;
@@ -17,13 +14,22 @@
     position: relative;
 }
 body {
-    background-color: tomato;
+    background-color: #F0E68D;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-nav {
+header {
     height: 80px;
     width: 100%;
-    background: #191970;
+    background: maroon;
+    top: 0;
+    position: sticky;
+}
+label.logo {
+    font-size: 50px;
+    font-family: Righteous;
+    color: whitesmoke;
+    padding: 0 100px;
+    line-height: 80px;
 }
 nav ul {
     float: right;
@@ -35,29 +41,22 @@ nav li {
     line-height: 80px;
 }
 nav a {
-    font-family: 'Black Han Sans';
-    color: ivory;
+    font-family: Righteous;
+    color: whitesmoke;
     font-size: 20px;
     text-transform: uppercase;
     border: 1px solid transparent;
     padding: 7px 10px;
     border-radius: 3px;
 }
-label.logo {
-    font-size: 50px;
-    font-family: 'Black Han Sans';
-    color: ivory;
-    padding: 0 100px;
-    line-height: 80px;
-}
-h1{
+h1 {
     font-size: 100px;
     font-weight: 100;
     margin-left: 150px;
     margin-bottom: 15px;
     margin-top: 50px;
-    color: navy;
-    font-family: 'Black Han Sans';
+    color: #363024;
+    font-family: Righteous;
 }
 #main {
     padding: 10px;
@@ -72,8 +71,8 @@ h1{
 .content h2 {
     font-size: 30px;
     font-weight: 100;
-    color: navy;
-    font-family: 'Black Han Sans';
+    color: #4b4a3c;
+    font-family: Righteous;
 }
 .content p{
     text-align: justify;
@@ -82,8 +81,8 @@ h1{
     margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
-    color: black;
-    font-family: 'Black Han Sans';
+    color: #363024;
+    font-family: Arvo;
 }
 .content ol li {
     text-align: justify;
@@ -92,8 +91,8 @@ h1{
     margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
-    color: black;
-    font-family: 'Black Han Sans';
+    color: #363024;
+    font-family: Arvo;
 }
 img {
     margin-right: 100px;
@@ -101,14 +100,14 @@ img {
     margin-bottom: 15px;
     border-radius: 8px;
     float: right;
-    border: 10px solid navy;
+    border: 10px solid #363024;
     border-radius: 10px;
 }
 footer {
-    background: #191970;
+    background: maroon;
     height: auto;
     width: 100%;
-    font-family: 'Black Han Sans';
+    font-family: Righteous;
     padding-top: 40px;
     color: ivory;
 }
@@ -123,10 +122,13 @@ footer {
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
+    line-height: 3rem;
 }
 .footer-content p {
+    font-family: Arvo;
     max-width: 500px;
     margin: 10px auto;
+    line-height: 28px;
     font-size: 14px;
 }
 .socials {
@@ -139,6 +141,7 @@ footer {
 .socials li{
     margin-right: 15px;
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 .socials a {
     text-decoration: none;
@@ -149,10 +152,10 @@ footer {
     transition: color .4 ease;
 }
 .socials a:hover {
-    color: coral;
+    color: goldenrod;
 }
 .footer-bottom {
-    background: #111158;
+    background: rgb(104, 3, 3);
     width: 100%;
     padding: 20px 0;
     text-align: center;

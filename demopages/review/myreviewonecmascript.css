@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
 }
-@font-face {
-    font-family: 'Black Han Sans';
-    src: url(../../img&font/BlackHanSans-Regular.ttf);
+.container{
+    height: 100vh;
+    width: 100%;
+    background-position:  center;
+    background-size: auto;
+    position: relative;
 }
-.content img {
+header {
     align-items: center;
     margin-top: 100px;
     margin-bottom: 70px;
@@ -16,22 +21,22 @@
     width: 50%;
     height: 50vh;
 }
-.logo {
-    font-size: 50px;
-    font-family: 'Black Han Sans';
-    color: ivory;
-    padding: 0 100px;
-    line-height: 80px;
+body {
+    background-color: #F0E68D;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-nav {
+.container {
     height: 80px;
     width: 100%;
-    background: #191970;
+    background: maroon;
     top: 0;
 }
-body {
-    background-color:palegoldenrod;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+label.logo {
+    font-size: 50px;
+    font-family: Righteous;
+    color: whitesmoke;
+    padding: 0 100px;
+    line-height: 80px;
 }
 nav ul {
     float: right;
@@ -43,8 +48,8 @@ nav li {
     line-height: 80px;
 }
 nav a {
-    font-family: 'Black Han Sans';
-    color: ivory;
+    font-family: Righteous;
+    color: whitesmoke;
     font-size: 20px;
     text-transform: uppercase;
     border: 1px solid transparent;
@@ -52,37 +57,37 @@ nav a {
     border-radius: 3px;
 }
 a:active, a:hover {
-    border-color: ivory;
-    color: coral;
+    border-color: whitesmoke;
+    color: goldenrod;
     transition: .5s;
 }
 section {
-    font-family: 'Black Han Sans';
+    font-family: Righteous;
     text-align: center;
 }
 section h1 {
-    color: #2b3e4efb;
-    font-size: 35px;
-    font-family: 'Black Han Sans';
-    margin: 40px 50px;
+    color: #363024;
+    font-size: 50px;
+    font-family: Righteous;
+    margin: 40px 80px;
     text-align: center;
-    margin-top: 30px;
-    border-bottom: 8px solid #2b3e4efb ;
+    margin-top: 100px;
+    border-bottom: 7px solid #363024;
 }
 section p {
-    color: #2b3e4efb;
+    color: #363024;
     font-size: 18px;
-    font-family: 'Black Han Sans';
+    font-family: Arvo;
     margin: 120px 200px;
     text-align: center; 
     text-align: justify;
     margin-top: 20px;
 }
 footer {
-    background: #191970;
+    background: maroon;
     height: auto;
     width: 100%;
-    font-family: 'Black Han Sans';
+    font-family: Righteous;
     padding-top: 40px;
     color: ivory;
 }
@@ -94,42 +99,20 @@ footer {
     text-align: center;
 }
 .footer-content h3 {
-    font-size: 1.8rem;
+    font-size: 35px;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
 }
 .footer-content p {
-    max-width: 500px;
+    font-family: Arvo;
+    max-width: 300px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
 }
-.socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-.socials li{
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 10px;
-}
-.socials a {
-    text-decoration: none;
-    color: ivory;
-}
-.socials a i {
-    font-size: 40px;
-    transition: color .4 ease;
-}
-.socials a:hover {
-    color: coral;
-}
 .footer-bottom {
-    background: #111158;
+    background: rgb(104, 3, 3);
     width: 100%;
     padding: 20px 0;
     text-align: center;
