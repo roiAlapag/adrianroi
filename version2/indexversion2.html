@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Portfolio -Bootstrap 5</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet'/>
+	<link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="indexversion2.css">
+</head>
+<body class="bg-primary p-2 bg-opacity-25">
+    
+
+<!--navbar-->
+<nav class="navbar navbar-light fixed-top bg-dark shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand text-info fw-bold fs-2" href="indexversion2.html">MySelf</a>
+      <div class="dropdown">
+        <button class="btn btn-light text-info px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+			<i class="fas fa-bars"></i>
+		</button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="indexversion2.html">Home</a></li>
+          <li><a class="dropdown-item" href="#tribute">Tribute</a></li>
+          <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
+          <li><a class="dropdown-item" href="#restaurant">Restaurant</a></li>
+          <li><a class="dropdown-item" href="#form">Form</a></li>
+          <li><a class="dropdown-item" href="#review">Review</a></li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<!--navbar end-->
+
+<!--home section start-->
+<section class="home py-5" id="home">
+    <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+            <div class="col-md-6 mt-5 mt-md-0">
+                <div class="home-img text-center">
+                    <img src="image/Untitled-1.jpg" class="rounded-circle mw-100" alt="profile img">
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                <div class="home-text">
+                    <p class="text-dark mb-1 fs-5">Hello I'm</p>
+                    <h1 class="text-dark text-opacity-95 text-uppercase fs-1 fw-bold">Adrian Roi Alapag</h1>
+                    <h2 class="fs-2 text-dark">Web Designer</h2>
+                    <p class="mt-4 fs-5 text-dark">I am a web designer born in the Philippines who is always ready for web designing service.</p>
+                    <a href="#portfolio" class="btn btn-info px-3 mt-3 text-dark">My Work</a>     
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--home section end-->
+
+<!--about section start-->
+<section class="about py-5 bg-dark" id="about">
+	<div class="container-lg py-4">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section title text-center">
+					<h2 class="fw-bold fs-1 mb-5 text-light">About me</h2>
+				</div>
+			</div>
+		</div>
+			<div class="about-text text-center mb-5">
+				<h3 class="fs-4 mpx-5 text-light">Introduction</h3>	
+				<p class="text-light" style="text-align: justify;">My name is Adrian Roi G. Alapag and I am 21 years old. I am now pursuing an Information Technology degree at the University of the Immaculate Conception. Eating, doing art, and watching anime are some of my favorite pastimes.
+					When it comes to eating, I am not picky. I accept all of the food that is offered to me. But when it comes to my favorite cuisines, Adobo, Sinigang, Chicken Curry, and Ramen are among them. When it comes to art, I use it to bring calm and happiness into my life. 
+					Although most of my designs are cartoons, I am attempting to learn various art styles in order to enhance my artistic knowledge. Crimson is my favorite color, and orange is my least favorite among all the available color. Hello and thank you for visiting my website.</p>
+			</div>
+			<div class="about-text text-center mb-1">
+				<h3 class="fs-4 mpx-5 text-light">My Journey towards this field</h3>	
+				<p class="text-light" style="text-align: justify;">In the field of web developement, I can be described as a beginner, newbie, rookie, freshman, and so on.  My journey to this profession is only starting, and it is full of ups and downs. 
+                    My journey may not be as beautiful as others', but it is unique in that it helps me to grow as a person and a developer. My proudest achievement is that I completed my freshman year.
+                     I hope that my experiences will encourage me in becoming a successful developer in the near future.In the field of web developement, I can be described as a beginner, newbie, rookie, freshman, and so on.  My journey to this profession is only starting, and it is full of ups and downs. 
+					 My journey may not be as beautiful as others', but it is unique in that it helps me to grow as a person and a developer. My proudest achievement is that I completed my freshman year.
+					  I hope that my experiences will encourage me in becoming a successful developer in the near future.</p>
+			</div>
+		</div>
+	</div>	
+</section>
+<!-- about section end -->
+
+<!-- service section start -->
+<section class="services py-5" id="services">
+	<div class="container-lg py-4">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section title text-center">
+					<h2 class="fw-bold fs-1 mb-5 text-dark">What I Do</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-6 col-lg-4 mb-4">
+				<div class="service-item shadow-sm p-4 rounded bg-info">
+					<div class="icon my-3 text-light fs-2">
+					    <i class="fas fa-code"></i>
+					</div>
+					<h3 class="fs-5 py-2 text-light">Web development</h3>
+					<p class="text-light">Creating web pages with the implementation of HTML, CSS, and JavaScript codes.</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 mb-4">
+				<div class="service-item shadow-sm p-4 rounded bg-light">
+					<div class="icon my-3 text-dark fs-2">
+						<i class="fas fa-lightbulb"></i>
+					</div>
+					<h3 class="fs-5 py-2 text-dark">Creative Design</h3>
+					<p class="text-dark">Designing prototypes and logos with the use of 
+						Adobe llustrator, CorelDraw, Figma, etc.</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 mb-4">
+				<div class="service-item shadow-sm p-4 rounded bg-info">
+					<div class="icon my-3 text-light fs-2">
+						<i class="fas fa-image"></i>
+					</div>
+					<h3 class="fs-5 py-2 text-light">Photoshop</h3>
+					<p class="text-light">Editing photos with the use of Adobe Photoshop and Corel PHOTO-PAINT.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- service section end -->
+
+<!-- portfolio section start -->
+
+<section class="portfolio py-5  bg-dark" id="portfolio">
+	<div class="container-lg py-4">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section title text-center">
+					<h2 class="fw-bold fs-1 mb-5 text-light">Latest Works</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/latest work/241525530_1050739862366608_4583339793385751912_n.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+					<h3 class="text-capitalize fs-5 my-2 text-light">web application idea</h3>
+					<p class="mb-4"><a href="image/Web Application IDEA.pdf" target="_blank" class="text-info" text-decoration-none>Click to See the Slide</a></p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/latest work/Untitled-12.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+					<h3 class="text-capitalize fs-5 my-2 text-light">GABAY Logo</h3>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="img/portfolio/TPD wallpaper.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+					<h3 class="text-capitalize fs-5 my-2 text-white">graphic design</h3>
+					<p class="mb-4"><a href="#" class="text-info" text-decoration-none>Live Demo</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- portfolio section end -->
+
+<!-- artifacts section start -->
+
+<section class="portfolio py-5" id="portfolio">
+	<div class="container-lg py-4">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section title text-center">
+					<h2 class="fw-bold fs-1 mb-5 text-dark">Static Demo Pages</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/artifacts/244269698_396906908741856_1269253423760965121_n.png" class="w-100 img-thumbnail" alt="portfolio item">
+					<h3 class="text-capitalize fs-5 my-2 text-dark">home</h3>
+					<p class="mb-4"><a href="../index.html" target="_blank" class="text-primary" text-decoration-none>Click to See the Slide</a></p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/artifacts/244255559_232248902130934_6866235607230687565_n.png" class="w-100 img-thumbnail" alt="portfolio item">
+					<h3 class="text-capitalize fs-5 my-2 text-dark">tribute</h3>
+					<p class="mb-4"><a href="../demopages/tribute/tribute.html" target="_blank" class="text-primary" text-decoration-none>Click to See the Slide</a></p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/artifacts/244203504_917682175820930_7511679154384211149_n.png" class="w-100 img-thumbnail" alt="portfolio item">
+					<h3 class="text-capitalize fs-5 my-2 text-dark">gallery</h3>
+					<p class="mb-4"><a href="../demopages/gallery/gallery.html" target="_blank" class="text-primary" text-decoration-none>Click to See the Slide</a></p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/artifacts/244285538_394031669057671_7278859222213484308_n.png" class="w-100 img-thumbnail" alt="portfolio item">
+					<h3 class="text-capitalize fs-5 my-2 text-dark">restaurant</h3>
+					<p class="mb-4"><a href="../demopages/restaurant/myrestaurant.html" target="_blank" class="text-primary" text-decoration-none>Click to See the Slide</a></p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/artifacts/244181866_1191541934973821_4223652804776618117_n.png" class="w-100 img-thumbnail" alt="portfolio item">
+					<h3 class="text-capitalize fs-5 my-2 text-dark">form</h3>
+					<p class="mb-4"><a href="../demopages/form/vaccination.html" target="_blank" class="text-primary" text-decoration-none>Click to See the Slide</a></p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/artifacts/244265784_302946734591160_6648147691202605835_n.png" class="w-100 img-thumbnail" alt="portfolio item">
+					<h3 class="text-capitalize fs-5 my-2 text-dark">review</h3>
+					<p class="mb-4"><a href="../demopages/review/myreviewonecmascript.html" target="_blank" class="text-primary" text-decoration-none>Click to See the Slide</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- artifacts section end -->
+
+<!-- contact info and map start-->
+
+<!-- contact info and map end-->
+
+<!-- freelancer available section start -->
+<section class="freelancer-available py-5 bg-dark">
+	<div class="container-lg py-4">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 text-center">
+				<p class="text-light fs-5">Do you have any project ?</p>
+				<h2 class="fs-1 text-light mb-4">I'm Available For Any Web Design Project</h2>
+				<h2 class="text-center mb-4 text-light">Contact Information</h2>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- freelancer available section end -->
+
+
+<!-- contact section start -->
+<section class="p-5 bg-dark">
+	<div class="container">
+		<div class="row g-4">
+			<div class="col-md">
+				<div class="col-lg-8">
+			</div>
+				<div class="section title text-center">
+					<ul class="list-group list-group-flush lead">
+						<li class="list-group-item text-dark">
+						<span class="fw-bold">Main Location:</span>
+						Wuhan, China
+					</li>
+					<li class="list-group-item text-dark">
+						<span class="fw-bold">Enrollment Phone:</span>
+						(111) 222-3333
+					</li>
+					<li class="list-group-item text-dark">
+						<span class="fw-bold">Student Phone:</span>
+						(444) 555-6666
+					</li>
+					<li class="list-group-item text-dark">
+						<span class="fw-bold">Enrollment Email:</span>
+						enroll_mail123@gmail,com
+					</li>
+					<li class="list-group-item text-dark">
+						<span class="fw-bold">Student Email:</span>
+						student_0000001@uic.edu.ph
+					</li>
+				</ul>
+				</div>
+			</div>
+			<div class="col-md">
+				<div id="map"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- contact section end -->
+
+<!-- footer start -->
+<footer class="footer border-top py-4">
+	<div class="container-lg">  
+		<div class="row">
+			<div class="col-lg-12">
+				<p class="m-0 text-center text-dark">&copy; 2021 The WebShala</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer end -->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYmluYXJ5MDcxNCIsImEiOiJja3Uybmdsb20xbHplMnRvcXprbTY4d3phIn0.bt2HF-a-R1m6rywT21k0tg';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+        });
+    </script>
+</body>
+</html>
